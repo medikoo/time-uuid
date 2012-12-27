@@ -35,7 +35,7 @@ In your project path:
 
 ### Browser
 
-You can easily bundle npm packages for browser with [modules-webmake](https://github.com/medikoo/modules-webmake)
+You can easily bundle NPM packages for browser with [modules-webmake](https://github.com/medikoo/modules-webmake)
 
 ## Tests [![Build Status](https://travis-ci.org/medikoo/time-uuid.png)](https://travis-ci.org/medikoo/time-uuid)
 
