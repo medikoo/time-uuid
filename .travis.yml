@@ -5,4 +5,4 @@ node_js:
 
 notifications:
   email:
-    - medikoo+microtime-x@medikoo.com
+    - medikoo+time-uuid@medikoo.com
