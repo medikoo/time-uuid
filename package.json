@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Universally unique identifier in short web friendly (non UUID) format",
   "author": "Mariusz Nowak <medikoo@medikoo.com> (http://www.medikoo.com/)",
-  "main": "lib/uuid",
   "keywords": [
     "uuid",
     "guid",
@@ -24,7 +23,7 @@
     "tad": "0.1.x"
   },
   "scripts": {
-    "test": "node node_modules/tad/bin/tad lib"
+    "test": "node node_modules/tad/bin/tad"
   },
   "license": "MIT"
 }
