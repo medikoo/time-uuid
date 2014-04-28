@@ -1,6 +1,6 @@
 {
   "name": "time-uuid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Universally unique identifier in short web friendly (non UUID) format",
   "author": "Mariusz Nowak <medikoo@medikoo.com> (http://www.medikoo.com/)",
   "keywords": [
@@ -17,10 +17,10 @@
     "url": "git@github.com:medikoo/time-uuid.git"
   },
   "dependencies": {
-    "microtime-x": "0.1.x"
+    "microtime-x": "0.2.x"
   },
   "devDependencies": {
-    "tad": "0.1.x"
+    "tad": "0.2.x"
   },
   "scripts": {
     "test": "node node_modules/tad/bin/tad"

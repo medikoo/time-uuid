@@ -1,2 +1,11 @@
+v0.2.0  --  2014.04.28
+* Move out modules from lib folder
+* Provide `isTimeUuid` utility
+* Provide `increment` function which allows retrieval of microtimes incremented by 1.
+  Additionally two seconds gap is guaranteed between two direct time calls
+* Push forward base date
+* Assure returned microseconds value is positive (may be the case in manipulated clock setting)
+* Remove Makefile (it's environment agnostic package)
+
 v0.1.0  --  2012.12.27
 Initial
