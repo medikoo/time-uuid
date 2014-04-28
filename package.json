@@ -1,12 +1,9 @@
 {
   "name": "time-uuid",
   "version": "0.1.0",
-  "author": "Mariusz Nowak <medikoo+time-uuid@medikoo.com> (http://www.medikoo.com/)",
-  "description": "Universally unique identifier based on current time and in short not standard UUID format",
+  "description": "Universally unique identifier in short web friendly (non UUID) format",
+  "author": "Mariusz Nowak <medikoo@medikoo.com> (http://www.medikoo.com/)",
   "main": "lib/uuid",
-  "scripts": {
-    "test": "node node_modules/tad/bin/tad lib"
-  },
   "keywords": [
     "uuid",
     "guid",
@@ -16,15 +13,18 @@
     "stamp",
     "timestamp"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:medikoo/time-uuid.git"
+  },
   "dependencies": {
     "microtime-x": "0.1.x"
   },
   "devDependencies": {
     "tad": "0.1.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:medikoo/time-uuid.git"
+  "scripts": {
+    "test": "node node_modules/tad/bin/tad lib"
   },
   "license": "MIT"
 }
