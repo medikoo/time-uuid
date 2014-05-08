@@ -1,3 +1,6 @@
+v0.2.1  --  2014.05.08
+* Make sure to use fixed version of microtime-x
+
 v0.2.0  --  2014.04.28
 * Move out modules from lib folder
 * Provide `isTimeUuid` utility
