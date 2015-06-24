@@ -1,6 +1,6 @@
 {
   "name": "time-uuid",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Universally unique identifier in short web friendly (non UUID) format",
   "author": "Mariusz Nowak <medikoo@medikoo.com> (http://www.medikoo.com/)",
   "keywords": [
@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "tad": "^0.2.2",
-    "xlint": "~0.2.2",
-    "xlint-jslint-medikoo": "~0.1.2"
+    "xlint": "^0.2.2",
+    "xlint-jslint-medikoo": "^0.1.2"
   },
   "scripts": {
     "lint": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
