@@ -17,10 +17,10 @@
     "url": "git@github.com:medikoo/time-uuid.git"
   },
   "dependencies": {
-    "microtime-x": "~0.2.1"
+    "microtime-x": "1"
   },
   "devDependencies": {
-    "tad": "0.2.x"
+    "tad": "^0.2.2"
   },
   "scripts": {
     "test": "node node_modules/tad/bin/tad"
