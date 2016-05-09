@@ -7,7 +7,9 @@ var now = require('microtime-x')
 module.exports = exports = function () {
 	var time = now();
 	++last;
-	while (time <= last) ++time;
+	if (time <= last) {
+		if ((time + 1000) >= last) time = last + 1;
+	}
 	last = time;
 	return time;
 };
